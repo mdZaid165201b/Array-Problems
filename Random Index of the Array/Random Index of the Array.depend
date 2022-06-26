@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1656255664 source:h:\gcs\array problems\random index of the array\main.cpp
+	<iostream>
+	<time.h>
+
