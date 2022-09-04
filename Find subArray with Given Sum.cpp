@@ -5,8 +5,6 @@ using namespace std;
 void sumOfArray(int *arr,int length,int sumNumber){
     int i = 0;
     int j = 0;
-    int startPos = 1;
-    int endPos = 1;
     int num = 0;
     while(i<length){
         num+=arr[i];
