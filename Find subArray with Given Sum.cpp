@@ -9,10 +9,7 @@ void sumOfArray(int *arr,int length,int sumNumber){
     int endPos = 1;
     int num = 0;
     while(i<length){
-        cout<<"iterate"<<i<<endl;
-        cout<<"Before Adding Num =>"<<num<<endl;
         num+=arr[i];
-        cout<<"After Adding Num =>"<<num<<endl;
         if(num<sumNumber){ i++; }
         else if(num>sumNumber){
             j++;
